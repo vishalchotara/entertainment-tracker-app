@@ -1,0 +1,43 @@
+{
+    "api" : {
+        "ping": {
+            "method": "get",
+            "url": "/ping"
+        },
+        "items": {
+            "meta" : {
+                "method": "get",
+                "url": "/items/meta"
+            },
+            "getItemById": {
+                "method": "get",
+                "url": "/items/:id"
+            },
+            "getAllItems": {
+                "method": "get",
+                "url": "/items/:type/:filter",
+                "queryParams": {
+                    "numRecords": {
+                        "type": "number"
+                    },
+                    "page": {
+                        "type": "number"
+                    }
+                }
+            },
+            "addItem": {
+                "method": "post",
+                "url": "/items"
+            },
+            "deleteItem": {
+                "method": "post",
+                "url": "/items/:id"
+            },
+            "patchItem": {
+                "method": "patch",
+                "url": "/items/:id"
+            }
+            
+        }
+    }
+}

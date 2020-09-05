@@ -1,0 +1,3 @@
+{
+    "MONGO_DB": "mongodb+srv://admin:<anjgandhi123>@cluster0.60qis.mongodb.net/<dbname>?retryWrites=true&w=majority"
+}
