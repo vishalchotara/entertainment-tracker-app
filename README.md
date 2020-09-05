@@ -1,6 +1,6 @@
 # entertainment-tracker-app
 "full-stack" entertainment tracker application
-**work in progress**
+(**work in progress**)
 
 ## Objectives
 This entertainment tracker app tracks all entertainment you have finished (read, watched, etc.). You can look at what entertainment you have completed, add to the completed list and delete from the list. 
