@@ -6,10 +6,11 @@
                 <article class="message">
                     <div class="message-header">
                         <p>Edit Item</p>
-                        <button class="delete" aria-label="delete"></button>
+                        <button class="delete" aria-label="delete" @click="$emit('close')"></button>
                     </div>
                     <div class="message-body has-text-centered">
                         <ItemForm
+                            @cancel="$emit('close')"
                             :item="item"
                             :isModal="true"
                         />

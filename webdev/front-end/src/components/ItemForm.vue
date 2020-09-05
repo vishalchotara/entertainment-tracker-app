@@ -64,6 +64,14 @@
 <script>
 import { ItemRuleSet } from './../rulesets/ItemRuleset'
 export default {
+    created: function() {
+        if (!this.isNew) {
+            const {name, type, completed} = this.item
+            this.name.value = name
+            this.type.value = type
+            this.completed = completed
+        }
+    },
     data: function () {
         return {
             name: {
@@ -82,7 +90,10 @@ export default {
     props: {
         item: Object,
         title: String,
-        isNew: Boolean,
+        isNew: {
+            type: Boolean,
+            default: false
+        },
         isModal: {
             type: Boolean,
             default: false

@@ -29,7 +29,7 @@ const setType = function (state, payload) {
 }
 export const mutations = {
     resetState,
-    setitems,
+    setItems,
     setFilters,
     setFilter,
     setTypes,

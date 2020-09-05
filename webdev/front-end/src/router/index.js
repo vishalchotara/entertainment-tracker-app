@@ -10,9 +10,9 @@ Vue.use(VueRouter)
 export default new VueRouter({
     mode: 'history',
     routes: [
-        { path: '/', component: Home },
         { path: '/dashboard', component: Dashboard },
         { path: '/add-item', component: AddItem },
+        { path: '/', component: Home },
         { path: '*', component: Error}
     ],
     linkActiveClass: 'is-active'  // needed because of Bulma

@@ -4,7 +4,7 @@
             <div class="hero-body">
                 <div class="container">
                     <h1 class="title has-text-centered is-unselectable">Backlogger</h1>
-                    <h2 class="subtitle has-text-centered is-unselectable">keep your backlog organized</h2>
+                    <h2 class="subtitle has-text-centered is-unselectable">Keep your backlog organized!</h2>
                 </div>
             </div>
         </section>

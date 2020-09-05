@@ -8,7 +8,7 @@
                         <p class="is-unselectable">Delete this item?</p>
                         <button
                             class="delete"
-                            aria-label="delete"></button>
+                            aria-label="delete" @click="$emit('close')"></button>
                     </div>
                     <div class="message-body has-text-centered">
                         <p>{{ item.name }}</p>

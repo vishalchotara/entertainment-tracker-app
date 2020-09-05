@@ -13,7 +13,7 @@
             :class="{'is-active':activeNavbar}"
             @click="toggleStatus">
             <div class="navbar-start has-dropdown">
-                <router-link v-for="(option, index) in options" :key="index" class="navbar-item is-unselectable"
+                <router-link v-for="(option, index) in options" :key="index" exact class="navbar-item is-unselectable"
                    :to="urls[index]"
                     @click="toggleActiveItem(index)">{{ option }}</router-link>
             </div>
