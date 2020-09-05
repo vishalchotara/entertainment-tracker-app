@@ -11,9 +11,9 @@ This entertainment tracker app tracks all entertainment you have finished (read,
 * implement client-side part of application using Vue.js(components, styling and Routing)
 
 ## Languages, Frameworks and Libraries used
-Javascript
-Node.js
-MongoDB
-Mongoose
-Vue.js
-Bulma
+* Javascript
+* Node.js
+* MongoDB
+* Mongoose
+* Vue.js
+* Bulma
